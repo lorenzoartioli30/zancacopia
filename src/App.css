@@ -1,4 +1,67 @@
-.App {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .after-line {
+    position: relative;
+  }
+  .after-line::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 1px;
+    width: 0;
+    background-color: #fff;
+    transition: width 0.3s ease, left 0.3s ease;
+  }
+  .after-line:hover::after {
+    width: 100%;
+    left: 0;
+  }
+}
+.inline-flex {
+  position: relative;
+}
+
+.inline-flex:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px; /* Spessore della sottolineatura */
+  background-color: currentColor; /* Usa il colore del testo */
+  transform: scaleX(0); /* Inizialmente non visibile */
+  transition: transform 0.3s ease; /* Transizione graduale */
+}
+
+.inline-flex:hover:before {
+  transform: scaleX(1); /* Rende visibile la sottolineatura al passaggio del mouse */
+}
+
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+      transform: translateX(0%);
+  }
+  to {
+      transform: translateX(-50%);
+  }
+}
+/*.App {
   text-align: center;
 }
 
@@ -36,3 +99,4 @@
     transform: rotate(360deg);
   }
 }
+*/
