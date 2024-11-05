@@ -5,7 +5,7 @@ import Muffa from '../assets/muffa.webp';
 import Onorato from '../assets/onorato.webp';
 import Legno from '../assets/legno.jpg';
 import Bousareie from '../assets/lavoro1.webp';
-import PitturaBio from '../assets/pittura.png';
+import PitturaBio from '../assets/pittura.png'
 
 function Jobs() {
   return (
@@ -18,7 +18,7 @@ function Jobs() {
               Di cosa ci<span className="text-main"> occupiamo</span>
             </h3>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10"> {/* Modificato qui */}
+          <div className="grid grid-cols-3 gap-10">
             <div className="text-center bg-white">
               <img
                 className="w-full h-48 object-cover" // Imposta una dimensione uniforme
@@ -69,12 +69,12 @@ function Jobs() {
       </div>
       <div className="bg-gray-100 py-4">
         <div className="max-w-screen-lg mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10"> {/* Modificato qui */}
+          <div className="grid grid-cols-3 gap-10">
             <div className="text-center bg-white">
               <img
                 className="w-full h-48 object-cover" // Imposta una dimensione uniforme
                 src={Legno}
-                alt="Legno"
+                alt="Pittura"
               />
               <div className="p-4">
                 <div className="text-md">
@@ -84,7 +84,8 @@ function Jobs() {
                   <p className="text-gray-500 text-sm">Si tratta un ciclo costituito da PV33 fondo all'acqua e finiture F3 o F3A disponibile al solvente o all'acqua.
                     Il prodotto testato con le più severe norme europee è marcato "CE" con ETA 15_0424, certificato in classe B s1 d0 di reazione al fuoco, secondo EN 13501, per applicazioni a soffitto o parete.
                     Il ciclo è inoltre certificato secodo norma europea EN 13381-7 per la resistenza al fuoco su travi, pilastri, muri e solette in legno massiccio, lamellare e su pannelli.
-                    Nato per applicazioni in ambienti interni è di facile applicazione e dona al legno un aspetto calco e cerato.</p>
+                    Nato per applicazioni in ambienti interni è di facile applicazione e dona al legno un aspetto calco e cerato.
+                  </p>
                 </div>
               </div>
             </div>
@@ -92,7 +93,7 @@ function Jobs() {
               <img
                 className="w-full h-48 object-cover"
                 src={Onorato}
-                alt="Onorato"
+                alt="Muffa"
               />
               <div className="p-4">
                 <div className="text-md">
@@ -112,7 +113,7 @@ L’esclusività del risultato finale di ornato è identico alla decorazione ese
               <img
                 className="w-full h-48 object-cover"
                 src={Bousareie}
-                alt="Bousareie"
+                alt="Spatolatura"
               />
               <div className="p-4">
                 <div className="text-md">
@@ -130,12 +131,12 @@ Il termine Boiserie si sta affermando sempre più nella realizzazione delle fini
       </div>
       <div className="bg-gray-100 py-4">
         <div className="max-w-screen-lg mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10"> {/* Modificato qui */}
+          <div className="grid grid-cols-3 gap-10">
             <div className="text-center bg-white">
               <img
                 className="w-full h-48 object-cover" // Imposta una dimensione uniforme
                 src={Legno}
-                alt="Legno"
+                alt="Pittura"
               />
               <div className="p-4">
                 <div className="text-md">
@@ -143,7 +144,8 @@ Il termine Boiserie si sta affermando sempre più nella realizzazione delle fini
                     Rivestimenti a cappotto
                   </a>
                   <p className="text-gray-500 text-sm">Col passare del tempo i rivestimenti a cappotto esistenti, creano problemi.
-                  <br></br> Vuoi allungare la vita alle tue facciate?<br></br>Ricorda di programmare la manutenzione.</p>
+                    <br></br> Vuoi allungare la vita alle tue facciate?<br></br>Ricorda di programmare la manutenzione.
+                  </p>
                 </div>
               </div>
             </div>
@@ -151,7 +153,7 @@ Il termine Boiserie si sta affermando sempre più nella realizzazione delle fini
               <img
                 className="w-full h-48 object-cover"
                 src={PitturaBio}
-                alt="Biopittura"
+                alt="Muffa"
               />
               <div className="p-4">
                 <div className="text-md">
