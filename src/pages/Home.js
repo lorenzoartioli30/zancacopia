@@ -65,9 +65,9 @@ const Home = () => {
       initial={{ opacity: 0, y: 50 }} // Imposta i valori iniziali
       animate={{ opacity: 1, y: 0 }} // Imposta i valori finali
       transition={{ duration: 1 }} // Durata dell’animazione in secondi
-      className="px-2 md:px-0"
+      className="md:px-0"
     >
-    <section className="px-2 py-20 md:px-0">
+    <section className=" py-20 md:px-0">
       <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
         <div className="flex flex-wrap items-center sm:-mx-3">
           <div className="w-full"> {/*  md:w-1/2 md:px-3 */}
@@ -141,7 +141,7 @@ const Home = () => {
             ))}
         </div>
 
-        <div className="flex justify-center mt-6 relative">
+        <div className="flex justify-center mt-6 relative px-4">
             <Link 
                 to='portfolio'
                 className="relative z-10 inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 bg-gray-900 border-2 border-transparent sm:w-auto rounded-xl font-pj hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
