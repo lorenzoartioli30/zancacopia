@@ -15,9 +15,12 @@ import Lavoro6 from '../assets/lavoro6.webp'
 import Jobs from '../components/Jobs';
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
+import Bagnolo from '../assets/primaedopobagnolo.png'
+import ArrowUp from '../assets/arrow-up-circle.svg'
 
 const Home = () => {
     const cards = [
+        { title: "Rimozione della muffa", subtitle: "Villetta a Bagnolo San Vito", image: Bagnolo },
         { title: "La boiserie", subtitle: "Tecnica decorativa", image: Lavoro1 },
         { title: "Palazzo Siliprandi", subtitle: "Idropittura minerale ai silicati", image: Lavoro2 },
         { title: "Centro storico", subtitle: "Ripristino e colorazione dei portici", image: Lavoro3 },
@@ -254,6 +257,7 @@ const Home = () => {
         </div>
       )}
     </div>
+
     </motion.section>
     </div>
   );

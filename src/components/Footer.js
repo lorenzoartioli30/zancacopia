@@ -2,6 +2,7 @@ import React from 'react';
 import Facebook from '../assets/facebook.svg';
 import Linkedin from '../assets/linkedin.svg';
 import LogoZanca from '../assets/zancasnclogo.jpg';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -14,35 +15,40 @@ function Footer() {
             </a>
             <ul className="text-md flex items-center justify-center flex-col gap-5 md:flex-row md:gap-12 transition-all duration-500 py-6 mb-4 border-b border-gray-200">
               <li>
-                <a href="#" className="text-gray-800 hover:text-gray-900">
+                <Link to='/' className="text-gray-800 hover:text-gray-900">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-800 hover:text-gray-900">
+                <Link to='/chisiamo' className="text-gray-800 hover:text-gray-900">
                   Chi siamo
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-800 hover:text-gray-900">
+                <Link to='/portfolio' className="text-gray-800 hover:text-gray-900">
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-800 hover:text-gray-900">
+                <Link to='/contatti' className="text-gray-800 hover:text-gray-900">
                   Contattaci
-                </a>
+                </Link>
+              </li>
+              <li>
+                <Link to='/parlanodinoi' className="text-gray-800 hover:text-gray-900">
+                  Hanno parlato di noi
+                </Link>
               </li>
             </ul>
             <div className="flex space-x-10 justify-center items-center mb-6">
               <a
-                href="#"
+                href='https://www.linkedin.com/in/zancasnc/?originalSubdomain=it'
                 className="p-2 block text-gray-900 transition-all duration-500 hover:bg-main transition-colors duration-300 rounded-full"
               >
                 <img className="w-5 h-5" src={Linkedin} alt="LinkedIn" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/zancasnctinteggiature/"
                 className="p-2 block text-gray-900 transition-all duration-500 hover:bg-main transition-colors duration-300 rounded-full"
               >
                 <img className="w-5 h-5" src={Facebook} alt="Facebook" />

@@ -61,6 +61,20 @@
       transform: translateX(-50%);
   }
 }
+
+@media (max-width: 768px) {
+  .animate-marquee {
+    animation: marquee 20s linear infinite; /* Aumenta la velocità */
+  }
+  @keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-400%);
+    }
+  }
+}
 /*.App {
   text-align: center;
 }
