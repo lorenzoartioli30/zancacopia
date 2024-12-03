@@ -6,7 +6,8 @@ import Lavoro3 from '../assets/lavoro3.jpg';
 import Lavoro4 from '../assets/lavoro4.webp';
 import Lavoro5 from '../assets/lavoro5.webp';
 import Lavoro6 from '../assets/lavoro6.webp';
-import Bagnolo from '../assets/primaedopobagnolo.png'
+import Bagnolo from '../assets/primaedopobagnolo.png';
+import Porto from '../assets/Copia di Beige White Minimalist Beauty Skincare Before After Collage Instagram Post.png'
 
 function Portfolio() {
   const [isOverlayOpen, setIsOverlayOpen] = useState(false);
@@ -14,12 +15,13 @@ function Portfolio() {
 
   const cardsData = [
     { id: 1, title: "Villetta Interna a Bagnolo", description: "Rimozione della muffa con disinfettante e pittura antimuffa ionizzante...", fullDescription: "Nella villetta interna di Bagnolo San Vito è stato eseguito un trattamento completo per la rimozione della muffa. Abbiamo utilizzato un disinfettante apposito per eliminare le spore, seguito dall'applicazione di una pittura antimuffa ionizzante per garantire una protezione duratura contro la formazione di nuova muffa, mantenendo così un ambiente salubre e protetto.", image: Bagnolo },
-    { id: 2, title: "La boiserie", description: "Una tecnica decorativa con pannelli di legno...", fullDescription: "La Boiserie è una tecnica decorativa consistente nella copertura delle pareti con pannelli di legno, variamente intarsiati, incisi e intagliati. Il termine Boiserie si sta affermando sempre più nella realizzazione delle finiture d’interni delle case moderne.a parola significa lavorazione del legno e deriva dal francese bois, ovvero legno. Molto popolare in Francia a partire dal secolo XVII, la tecnica cominciò ad essere utilizzata per rivestire pareti, armadi, porte e librerie. È un elemento in grado di arricchire il contenuto della stanza in cui viene utilizzata. Sebbene sia legata ai tempi antichi, nelle case moderne diventa un elemento che dona un tocco di stile e classe all’ambiente. Nell’arredamento moderno, oltre all’utilizzo del più tradizionale legno, sono possibili boiseries in stucco o gesso ceramico", image: Lavoro1 },
-    { id: 3, title: "Palazzo Siliprandi", description: "Tinteggiatura con idropittura ai silicati...", fullDescription: "Centro storico di Mantova Palazzo Siliprandi tinteggiato con idropittura minerale ai silicati.", image: Lavoro2 },
-    { id: 4, title: "Centro storico", description: "Ripristino dei portici del centro storico...", fullDescription: "Ripristino e colorazione dei portici del centro storico di Mantova, sito Patrimonio dell’Unesco", image: Lavoro3 },
-    { id: 5, title: "Liceo Virgilio - Esterni", description: "Intervento sulle facciate...", fullDescription: "Intervento sulle facciate esterne del Liceo Virgilio con tinteggiatura resistente agli agenti atmosferici.", image: Lavoro4 },
-    { id: 6, title: "Liceo Virgilio - Interni", description: "Interventi di colorazione e manutenzione...", fullDescription: "Interventi di colorazione e manutenzione interna, per ambienti luminosi e moderni...", image: Lavoro5 },
-    { id: 7, title: "Rivestimento e pittura", description: "Ristrutturazione di edifici residenziali...", fullDescription: "PALAZZINA: intervento ciclo armato + intonachino. VILLETTA: rivestimento a cappotto decorativo. CONDOMINIO: completato con pittura al quarzo", image: Lavoro6 },
+    { id: 2, title: "Appartamento e balcone a Porto", description: "Rimozione della muffa appartamento e terrazza a Porto Mantovano", fullDescription: "", image: Porto},
+    { id: 3, title: "La boiserie", description: "Una tecnica decorativa con pannelli di legno...", fullDescription: "La Boiserie è una tecnica decorativa consistente nella copertura delle pareti con pannelli di legno, variamente intarsiati, incisi e intagliati. Il termine Boiserie si sta affermando sempre più nella realizzazione delle finiture d’interni delle case moderne.a parola significa lavorazione del legno e deriva dal francese bois, ovvero legno. Molto popolare in Francia a partire dal secolo XVII, la tecnica cominciò ad essere utilizzata per rivestire pareti, armadi, porte e librerie. È un elemento in grado di arricchire il contenuto della stanza in cui viene utilizzata. Sebbene sia legata ai tempi antichi, nelle case moderne diventa un elemento che dona un tocco di stile e classe all’ambiente. Nell’arredamento moderno, oltre all’utilizzo del più tradizionale legno, sono possibili boiseries in stucco o gesso ceramico", image: Lavoro1 },
+    { id: 4, title: "Palazzo Siliprandi", description: "Tinteggiatura con idropittura ai silicati...", fullDescription: "Centro storico di Mantova Palazzo Siliprandi tinteggiato con idropittura minerale ai silicati.", image: Lavoro2 },
+    { id: 5, title: "Centro storico", description: "Ripristino dei portici del centro storico...", fullDescription: "Ripristino e colorazione dei portici del centro storico di Mantova, sito Patrimonio dell’Unesco", image: Lavoro3 },
+    { id: 6, title: "Liceo Virgilio - Esterni", description: "Intervento sulle facciate...", fullDescription: "Intervento sulle facciate esterne del Liceo Virgilio con tinteggiatura resistente agli agenti atmosferici.", image: Lavoro4 },
+    { id: 7, title: "Liceo Virgilio - Interni", description: "Interventi di colorazione e manutenzione...", fullDescription: "Interventi di colorazione e manutenzione interna, per ambienti luminosi e moderni...", image: Lavoro5 },
+    { id: 8, title: "Rivestimento e pittura", description: "Ristrutturazione di edifici residenziali...", fullDescription: "PALAZZINA: intervento ciclo armato + intonachino. VILLETTA: rivestimento a cappotto decorativo. CONDOMINIO: completato con pittura al quarzo", image: Lavoro6 },
   ];
 
   const openOverlay = (card) => {

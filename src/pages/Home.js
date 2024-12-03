@@ -159,7 +159,8 @@ const Home = () => {
   <section className="text-gray-600 body-font relative py-8">
   <div className="container max-w-5xl px-10 py-10 mx-auto flex sm:flex-nowrap flex-wrap bg-white rounded-lg">
       <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-        <iframe
+      {/*
+      <iframe
           width="100%"
           height="100%"
           className="absolute inset-0"
@@ -170,6 +171,7 @@ const Home = () => {
           scrolling="no"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41150.92388187126!2d10.744439558041588!3d45.18902227077895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781d6cf637f6b01%3A0x6a530cb061c317d0!2sZanca%20Enzo%20%26%20Giannino!5e0!3m2!1sit!2sit!4v1730199178493!5m2!1sit!2sit"
         />
+      */}
         <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
           <div className="lg:w-1/2 px-6">
             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
@@ -198,7 +200,8 @@ const Home = () => {
         <p className="leading-relaxed mb-5 text-gray-600">
           Compila tutti i campi del form per richiedere un preventivo o invia una mail a <a href='mailto:zanca.snc@gmail.com' className="text-red-500 leading-relaxed">zanca.snc@gmail.com</a>
         </p>
-        <form onSubmit={handleSubmit}>
+        <form //</div>onSubmit={handleSubmit}
+        >
         <div className="relative mb-4">
           <label htmlFor="name" className="leading-7 text-sm text-gray-600">
             Nome
