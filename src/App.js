@@ -9,6 +9,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Newspaper from './pages/Newspaper';
 import ArrowUp from './assets/arrow-up-circle.svg';
+import Privacy from './pages/Privacy';
 
 function ScrollToTop() {
   const location = useLocation();
@@ -33,6 +34,7 @@ function App() {
             <Route path="/chisiamo" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/parlanodinoi" element={<Newspaper />} />
+            <Route path="/privacy" element={<Privacy />} />
           </Routes>
         </div>
 

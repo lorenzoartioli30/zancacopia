@@ -63,6 +63,11 @@ function Footer() {
             <span className="text-sm text-gray-500 block">
               ©Zanca snc, All rights reserved - Via G. Verdi, 3 • 46047 Porto Mantovano (MN)
             </span>
+            <span className="text-xs text-gray-500 block mt-4">
+              <Link to='/privacy' className="text-gray-800 hover:text-gray-900">
+                Privacy
+              </Link>
+            </span>
           </div>
         </div>
       </footer>
