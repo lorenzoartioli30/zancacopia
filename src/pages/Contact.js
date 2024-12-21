@@ -48,9 +48,9 @@ function Contact() {
           <p className="leading-relaxed mb-5 text-gray-600">
             Compila tutti i campi del form per richiedere un preventivo o invia una mail a <a href='mailto:zanca.snc@gmail.com' className="text-red-500 leading-relaxed">zanca.snc@gmail.com</a>
           </p>
-          <form //onSubmit={handleSubmit}
+          <form onSubmit={handleSubmit}
           >
-            {/*
+          
               <div className="relative mb-4">
                 <label htmlFor="name" className="leading-7 text-sm text-gray-600">Nome</label>
                 <input
@@ -73,7 +73,6 @@ function Contact() {
                   className="w-full bg-white rounded border border-gray-300 focus:border-dark-main focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
-            */}
             <div className="relative mb-4">
               <label htmlFor="message" className="leading-7 text-sm text-gray-600">Messaggio</label>
               <textarea
@@ -132,7 +131,7 @@ function Contact() {
                 </div>
                 </div>
                 <div className="rounded-lg overflow-hidden order-none sm:order-first">
-                  {/*
+                
                     <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41150.92388187126!2d10.744439558041588!3d45.18902227077895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781d6cf637f6b01%3A0x6a530cb061c317d0!2sZanca%20Enzo%20%26%20Giannino!5e0!3m2!1sit!2sit!4v1730199178493!5m2!1sit!2sit"
                     className="w-full"
@@ -143,7 +142,7 @@ function Contact() {
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                 />
-                  */}
+              
                 </div>
             </div>
             </div>
