@@ -38,7 +38,7 @@ function About() {
         La ditta Zanca snc nasce nel 1976 dai fratelli Enzo e Giannino.<br></br> Nel tempo poi sono entrati a far parte dello staff operativo, i figli e i generi.<br></br><br></br>
         <b>Il nostro motto è: “Professionalità, Educazione, Pulizia”.</b>
         <br></br><br></br>
-        I nostri clienti dicono di noi che siamo affidabili, sempre creativi e che riusciamo a costruire un progetto di lavoro personalizzato per ognuno di loro, su misura e perfettamente in grado di soddisfare ogni loro esigenza.
+        I nostri clienti dicono di noi che siamo affidabili, sempre creativi e che riusciamo a costruire un progetto di lavoro personalizzato per ognuno di loro, su misura e perfettamente in grado di soddisfare qualsiasi loro esigenza.
         <br></br><br></br>
         <b>La ditta dispone di ponteggi fissi a norma per 1200 mq.</b>
         </p>
