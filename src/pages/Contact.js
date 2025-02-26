@@ -46,7 +46,7 @@ function Contact() {
             Entriamo in contatto
           </h2>
           <p className="leading-relaxed mb-5 text-gray-600">
-            Compila tutti i campi del form per richiedere un preventivo o invia una mail a <a href='mailto:zanca.snc@gmail.com' className="text-red-500 leading-relaxed">zanca.snc@gmail.com</a>
+            Compila tutti i campi del form per richiedere un preventivo o invia una email a <a href='mailto:zanca.snc@gmail.com' className="text-red-500 leading-relaxed">zanca.snc@gmail.com</a>
           </p>
           <form onSubmit={handleSubmit}
           >
